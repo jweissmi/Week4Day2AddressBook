@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Week4Day2AddressBook
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AddressBookHome.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class AddressBookHome : Page
     {
-        public MainWindow()
+        public AddressBookHome()
         {
             InitializeComponent();
         }
