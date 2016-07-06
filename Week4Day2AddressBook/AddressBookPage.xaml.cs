@@ -24,5 +24,10 @@ namespace Week4Day2AddressBook
         {
             InitializeComponent();
         }
+
+        public AddressBookPage(object data) : this()
+        {
+            this.DataContext = data;
+        }
     }
 }

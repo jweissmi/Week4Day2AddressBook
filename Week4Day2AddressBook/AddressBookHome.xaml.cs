@@ -24,5 +24,12 @@ namespace Week4Day2AddressBook
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //View Address Book Page
+            AddressBookPage addressBookPage = new AddressBookPage(this.peopleListBox.SelectedItem);
+            this.NavigationService.Navigate(addressBookPage);
+        }
     }
 }
